@@ -20,6 +20,7 @@ not just demos.
 |---|---|---|
 | **[financial-rag-eval](https://github.com/arturio-amorim/financial-rag-eval)** | RAG over financial documents **with a RAGAS evaluation harness** (faithfulness, relevancy, context precision/recall) — most demos skip eval; this one measures it | Python · FAISS · LangChain · Claude/OpenAI |
 | **[finance-agent-mcp](https://github.com/arturio-amorim/finance-agent-mcp)** | LLM **agent with tool use** + an **MCP server** exposing the same tools (define once, expose to the agent *and* to MCP clients like Claude Desktop) | Python · MCP · Claude/OpenAI |
+| **[llm-eval-observability](https://github.com/arturio-amorim/llm-eval-observability)** | **LLMOps** toolkit — tracing (latency / error rate) + an eval harness (heuristics + LLM-as-judge) that catches regressions | Python · LLM-as-judge |
 
 *More landing here as I build in public.*
 
