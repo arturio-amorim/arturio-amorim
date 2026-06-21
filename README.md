@@ -14,9 +14,13 @@ not just demos.
 
 ---
 
-### 🚧 Featured Projects
+### 🚀 Featured Projects
 
-*Building in public — flagship AI projects landing here soon.*
+| Project | What it does | Stack |
+|---|---|---|
+| **[financial-rag-eval](https://github.com/arturio-amorim/financial-rag-eval)** | RAG over financial documents **with a RAGAS evaluation harness** (faithfulness, relevancy, context precision/recall) — most demos skip eval; this one measures it | Python · FAISS · LangChain · Claude/OpenAI |
+
+*More landing here as I build in public.*
 
 ---
 
