@@ -9,7 +9,7 @@ not just demos.
 
 🔭 **Focus:** Retrieval-Augmented Generation (RAG) · LLM agents & tool use · LLM evaluation/observability
 🛠️ **Stack:** Python · FastAPI · LangChain/LangGraph · OpenAI/Anthropic/Hugging Face · Vector DBs (pgvector, FAISS, Chroma) · AWS · Docker
-🌱 **Currently:** building an evaluated RAG app + an agentic project (MCP)
+🌱 **Currently:** building production GenAI showcases — RAG + evaluation, agents + MCP, LLM observability
 📫 **Reach me:** arturio.amorim@hotmail.com · [LinkedIn](https://www.linkedin.com/in/arturio-amorim-33b60736/)
 
 ---
@@ -19,6 +19,7 @@ not just demos.
 | Project | What it does | Stack |
 |---|---|---|
 | **[financial-rag-eval](https://github.com/arturio-amorim/financial-rag-eval)** | RAG over financial documents **with a RAGAS evaluation harness** (faithfulness, relevancy, context precision/recall) — most demos skip eval; this one measures it | Python · FAISS · LangChain · Claude/OpenAI |
+| **[finance-agent-mcp](https://github.com/arturio-amorim/finance-agent-mcp)** | LLM **agent with tool use** + an **MCP server** exposing the same tools (define once, expose to the agent *and* to MCP clients like Claude Desktop) | Python · MCP · Claude/OpenAI |
 
 *More landing here as I build in public.*
 
