@@ -24,6 +24,7 @@ not just demos.
 | **[lora-finetune-finance](https://github.com/arturio-amorim/lora-finetune-finance)** | **LoRA fine-tuning** of a small open LLM into a concise finance assistant (PEFT + TRL), with before/after comparison | Python · PEFT · TRL · 🤗 |
 | **[ai-ecommerce-integration](https://github.com/arturio-amorim/ai-ecommerce-integration)** | **AI for e-commerce** — auto SEO enrichment + semantic product search, with pluggable store connectors (mock / Shopify) | Python · LLM · semantic search |
 | **[ai-support-copilot](https://github.com/arturio-amorim/ai-support-copilot)** | **AI customer support** — intent / sentiment / urgency triage + KB retrieval + escalation routing + grounded replies | Python · LLM · triage |
+| **[ai-content-studio](https://github.com/arturio-amorim/ai-content-studio)** | **AI marketing content** — generation + a measurable SEO/readability analyzer that scores & ranks A/B variants | Python · LLM · SEO |
 
 *More landing here as I build in public.*
 
