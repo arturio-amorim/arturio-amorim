@@ -9,7 +9,7 @@ not just demos.
 
 🔭 **Focus:** Retrieval-Augmented Generation (RAG) · LLM agents & tool use · LLM evaluation/observability
 🛠️ **Stack:** Python · FastAPI · LangChain/LangGraph · OpenAI/Anthropic/Hugging Face · Vector DBs (pgvector, FAISS, Chroma) · AWS · Docker
-🌱 **Currently:** building production GenAI showcases — RAG + evaluation, agents + MCP, LLM observability
+🌱 **Currently:** building production GenAI across domains — RAG, agents/MCP, LLMOps, and applied AI (e-commerce, support, marketing)
 📫 **Reach me:** arturio.amorim@hotmail.com · [LinkedIn](https://www.linkedin.com/in/arturio-amorim-33b60736/)
 
 ---
@@ -22,6 +22,7 @@ not just demos.
 | **[finance-agent-mcp](https://github.com/arturio-amorim/finance-agent-mcp)** | LLM **agent with tool use** + an **MCP server** exposing the same tools (define once, expose to the agent *and* to MCP clients like Claude Desktop) | Python · MCP · Claude/OpenAI |
 | **[llm-eval-observability](https://github.com/arturio-amorim/llm-eval-observability)** | **LLMOps** toolkit — tracing (latency / error rate) + an eval harness (heuristics + LLM-as-judge) that catches regressions | Python · LLM-as-judge |
 | **[lora-finetune-finance](https://github.com/arturio-amorim/lora-finetune-finance)** | **LoRA fine-tuning** of a small open LLM into a concise finance assistant (PEFT + TRL), with before/after comparison | Python · PEFT · TRL · 🤗 |
+| **[ai-ecommerce-integration](https://github.com/arturio-amorim/ai-ecommerce-integration)** | **AI for e-commerce** — auto SEO enrichment + semantic product search, with pluggable store connectors (mock / Shopify) | Python · LLM · semantic search |
 
 *More landing here as I build in public.*
 
