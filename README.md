@@ -9,22 +9,36 @@ not just demos.
 
 🔭 **Focus:** Retrieval-Augmented Generation (RAG) · LLM agents & tool use · LLM evaluation/observability
 🛠️ **Stack:** Python · FastAPI · LangChain/LangGraph · OpenAI/Anthropic/Hugging Face · Vector DBs (pgvector, FAISS, Chroma) · AWS · Docker
-🌱 **Currently:** building production GenAI across domains — RAG, agents/MCP, LLMOps, and applied AI (e-commerce, support, marketing)
+🌱 **Currently:** building production GenAI across domains — RAG, agents/MCP, LLMOps, and applied AI (e-commerce, support, marketing, agribusiness)
 📫 **Reach me:** arturio.amorim@hotmail.com · [LinkedIn](https://www.linkedin.com/in/arturio-amorim-33b60736/)
 
 ---
 
 ### 🚀 Featured Projects
 
+**🧠 Core AI / LLM engineering**
+
 | Project | What it does | Stack |
 |---|---|---|
-| **[financial-rag-eval](https://github.com/arturio-amorim/financial-rag-eval)** | RAG over financial documents **with a RAGAS evaluation harness** (faithfulness, relevancy, context precision/recall) — most demos skip eval; this one measures it | Python · FAISS · LangChain · Claude/OpenAI |
-| **[finance-agent-mcp](https://github.com/arturio-amorim/finance-agent-mcp)** | LLM **agent with tool use** + an **MCP server** exposing the same tools (define once, expose to the agent *and* to MCP clients like Claude Desktop) | Python · MCP · Claude/OpenAI |
-| **[llm-eval-observability](https://github.com/arturio-amorim/llm-eval-observability)** | **LLMOps** toolkit — tracing (latency / error rate) + an eval harness (heuristics + LLM-as-judge) that catches regressions | Python · LLM-as-judge |
-| **[lora-finetune-finance](https://github.com/arturio-amorim/lora-finetune-finance)** | **LoRA fine-tuning** of a small open LLM into a concise finance assistant (PEFT + TRL), with before/after comparison | Python · PEFT · TRL · 🤗 |
-| **[ai-ecommerce-integration](https://github.com/arturio-amorim/ai-ecommerce-integration)** | **AI for e-commerce** — auto SEO enrichment + semantic product search, with pluggable store connectors (mock / Shopify) | Python · LLM · semantic search |
-| **[ai-support-copilot](https://github.com/arturio-amorim/ai-support-copilot)** | **AI customer support** — intent / sentiment / urgency triage + KB retrieval + escalation routing + grounded replies | Python · LLM · triage |
-| **[ai-content-studio](https://github.com/arturio-amorim/ai-content-studio)** | **AI marketing content** — generation + a measurable SEO/readability analyzer that scores & ranks A/B variants | Python · LLM · SEO |
+| **[financial-rag-eval](https://github.com/arturio-amorim/financial-rag-eval)** | RAG over financial docs **with a RAGAS evaluation harness** — most demos skip eval; this one measures it | Python · FAISS · LangChain · Claude/OpenAI |
+| **[finance-agent-mcp](https://github.com/arturio-amorim/finance-agent-mcp)** | LLM **agent with tool use** + an **MCP server** (define tools once, expose to the agent *and* MCP clients) | Python · MCP · Claude/OpenAI |
+| **[llm-eval-observability](https://github.com/arturio-amorim/llm-eval-observability)** | **LLMOps** — tracing (latency / error rate) + an eval harness (heuristics + LLM-as-judge) | Python · LLM-as-judge |
+| **[lora-finetune-finance](https://github.com/arturio-amorim/lora-finetune-finance)** | **LoRA fine-tuning** of a small open LLM (PEFT + TRL) with before/after comparison | Python · PEFT · TRL · 🤗 |
+
+**🛠️ Applied AI by domain**
+
+| Project | What it does | Stack |
+|---|---|---|
+| **[ai-ecommerce-integration](https://github.com/arturio-amorim/ai-ecommerce-integration)** | E-commerce — auto **SEO enrichment** + **semantic product search** (pluggable Shopify/mock connectors) | Python · LLM · semantic search |
+| **[ai-support-copilot](https://github.com/arturio-amorim/ai-support-copilot)** | Customer support — **triage** (intent/sentiment/urgency) + KB retrieval + **grounded replies** | Python · LLM · triage |
+| **[ai-content-studio](https://github.com/arturio-amorim/ai-content-studio)** | Marketing — content generation + a **measurable SEO analyzer** that ranks A/B variants | Python · LLM · SEO |
+
+**🌱 Agribusiness**
+
+| Project | What it does | Stack |
+|---|---|---|
+| **[agro-crop-advisor](https://github.com/arturio-amorim/agro-crop-advisor)** | Crop recommendation from soil + climate via a **transparent scoring engine** + LLM advice | Python · LLM · AgriTech |
+| **[agro-commodity-insights](https://github.com/arturio-amorim/agro-commodity-insights)** | Commodity price **analytics** (SMA, volatility, trend) + a grounded **LLM market report** | Python · LLM · time-series |
 
 *More landing here as I build in public.*
 
