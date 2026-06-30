@@ -22,7 +22,8 @@ not just demos.
 |---|---|---|
 | **[financial-rag-eval](https://github.com/arturio-amorim/financial-rag-eval)** | RAG over financial docs **with a RAGAS evaluation harness** — most demos skip eval; this one measures it | Python · FAISS · LangChain · Claude/OpenAI |
 | **[finance-agent-mcp](https://github.com/arturio-amorim/finance-agent-mcp)** | LLM **agent with tool use** + an **MCP server** (define tools once, expose to the agent *and* MCP clients) | Python · MCP · Claude/OpenAI |
-| **[llm-eval-observability](https://github.com/arturio-amorim/llm-eval-observability)** | **LLMOps** — tracing (latency / error rate) + an eval harness (heuristics + LLM-as-judge) | Python · LLM-as-judge |
+| **[llmops-platform](https://github.com/arturio-amorim/llmops-platform)** | **Full LLMOps platform** — golden-dataset eval + LLM-as-judge, **regression gate** & A/B, observability (latency/cost/quality), cost controls (budgets · cache · rate limit), PII redaction | Python · LLMOps |
+| **[llm-eval-observability](https://github.com/arturio-amorim/llm-eval-observability)** | LLM **tracing** + eval harness (heuristics + LLM-as-judge) | Python · LLM-as-judge |
 | **[lora-finetune-finance](https://github.com/arturio-amorim/lora-finetune-finance)** | **LoRA fine-tuning** of a small open LLM (PEFT + TRL) with before/after comparison | Python · PEFT · TRL · 🤗 |
 
 **🛠️ Applied AI by domain**
